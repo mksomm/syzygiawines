@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    align-items: center;
+    &__mail{
+        h4{
+            color:$claro;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+    }
+    &__redes{
+        display: flex;
+        justify-content: space-evenly;
+        @media only screen and (max-width: 768px){
+            justify-content: flex-end;
+            padding: 5px;
+        }
+        &--logo{
+            background-color: $claro;
+            margin: 5px;
+        }
+    }
+    &__logo{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        @media only screen and (max-width: 768px){
+            justify-content: flex-end;
+        }
+        img{
+            display: flex;
+            align-items: flex-end;
+            width: 90px;
+        }
+
+    }
+}

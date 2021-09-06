@@ -1,0 +1,35 @@
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-family: $Montserrat;
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        input{
+            color: $claro;
+            display: flex;
+            align-items: center;
+            margin: 10px;
+            padding: 10px
+            ;
+        }
+        &--check{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            padding: 5px;
+        }
+    }
+}
+input:hover{
+	background-color: $claro;
+	color:$oscuro;
+}
+#residencia{
+    margin-left: 20px;
+}

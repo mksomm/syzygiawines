@@ -1,0 +1,23 @@
+@import "variables";
+*{
+	background-color: $oscuro;
+	color: $claro;
+}
+
+a{
+	color:$claro;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 15px;
+	margin: 15px;
+}
+a:hover{
+	background-color: $claro;
+	color:$oscuro;
+}
+.dropdown-item{
+	background-color:$oscuro;
+	color: $claro;
+}
+
