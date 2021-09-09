@@ -19,5 +19,13 @@ a:hover{
 .dropdown-item{
 	background-color:$oscuro;
 	color: $claro;
+	padding: 5px;
+	width: auto;
+	font-weight: 500;
+}
+.dropdown-menu{
+	background-color: $oscuro;
+	text-align: center;
+	padding: 5px;
 }
 
