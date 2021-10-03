@@ -18,6 +18,23 @@
             padding: 5px;
         }
     }
+    &__fotoFicha{
+        display: flex;
+        justify-content: center;
+        @media only screen and (max-width: 768px){
+            justify-content: center;
+            padding: 5px;
+        }
+    &__texto{
+        display: flex;
+        justify-content: center;
+        p{
+            font-size: 70px;
+        }
+        font-size: 60px;
+        @media only screen and (max-width: 768px){
+            padding: 5px;
+    }
 }
 
 
