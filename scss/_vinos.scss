@@ -1,23 +1,8 @@
+
 .vinosEncabezado{
-    display: flex;
+    display:flex;
     align-items: center;
     padding: 15px;
-    &__foto1{
-        display: flex;
-        justify-content: flex-end;
-        @media only screen and (max-width: 768px){
-            justify-content: center;
-            padding: 5px;
-        }
-    }
-    &__foto2{
-        display: flex;
-        justify-content: flex-start;
-        @media only screen and (max-width: 768px){
-            justify-content: center;
-            padding: 5px;
-        }
-    }
     &__fotoFicha{
         display: flex;
         justify-content: center;
@@ -25,59 +10,5 @@
             justify-content: center;
             padding: 5px;
         }
-    &__texto{
-        display: flex;
-        justify-content: center;
-        p{
-            font-size: 70px;
-        }
-        font-size: 60px;
-        @media only screen and (max-width: 768px){
-            padding: 5px;
     }
-}
-
-
-.tabla{
-	background-color: $claro;
-	font-size: 16px;
-    font-family: $Montserrat;
-	font-weight: 500;
-    @include todoCentrado;
-	border: solid 5px $oscuro;
-    @media only screen and (max-width: 768px) {
-        display: none;
-    }
-    th{
-        background-color: black;
-        font-size: 20px;
-        font-family: $Montserrat;
-        font-weight: 700;
-        text-align: center;
-        padding: 10px;        
-    }
-    td{
-        margin: 5px;
-        padding: 20px;
-        background-color:$claro;
-        color: black;
-        text-align: center;        
-    }
-    &__lista{
-        list-style-type: none;
-        background-color: $claro;
-        color: black;
-        padding: 0;
-        margin:0;
-        li{
-            background-color: $claro;
-            color: black;            
-        }  
-    }
-}
-
-.tablaInfo{
-    @include todoCentrado;
-    padding-top: 15px;
-    padding-bottom: 30px;
 }
