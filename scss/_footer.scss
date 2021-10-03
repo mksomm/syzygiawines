@@ -10,7 +10,6 @@
             display: flex;
             justify-content: flex-end;
         }
-
     }
     &__redes{
         display: flex;
@@ -37,5 +36,9 @@
             width: 90px;
         }
 
+    }
+    &__dev{
+        display: flex;
+        justify-content: flex-end;
     }
 }
